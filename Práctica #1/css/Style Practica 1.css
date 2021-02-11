@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Revans Medium";
+    src: url("../Fuentes/Revans-Medium.ttf") format("truetype");
+}  
+
+@font-face {
+    font-family: "Stay and Shine";
+    src: url("../Fuentes/Stay\ and\ Shine.ttf") format("truetype");
+}  
+
+.Nombre {
+    font-family: "Stay and Shine";
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.row {
+    font-family: "Revans Medium"
+}
+
+.AgujerosNegros {
+    text-indent: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.AgujerosNegros2 {
+    text-indent: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.AgujerosNegros3 {
+    text-indent: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.Contenido1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-family: "Revans Medium";
+}
+
+.Contenido2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-family: "Revans Medium";
+}
+
+.Clasif {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-indent: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.Clasif1 {
+    color: #ebe6e6;
+    font-weight: bold;
+}
+
+.Clasif2 {
+    color: #ebe6e6;
+    font-weight: bold;
+}
+
+.Masiv1 {
+    color: #076d4e;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Masiv2 {
+    color: #076d4e;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Masiv3 {
+    color: #076d4e;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Masiv4 {
+    color: #076d4e;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Masiv5 {
+    color: #076d4e;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Footer {
+    font-family: "Stay and Shine";
+    text-align: right;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
