@@ -1,0 +1,261 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Práctica #12 | ESantos</title> 
+    <link href="css/Style Practica 12.css" rel="StyleSheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    
+</head>
+<header>
+    <div class="container-fluid" style="background-color:rgb(8, 8, 8)">
+        <h1 class="Nombre">Eber Santos | Práctica #12</h1> 
+    </div>
+</header>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+      <img src="Img/Logotipo.png" width="50" height="50" alt="">
+    </a>
+    <div class="collapse navbar-collapse" id="opciones">   
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">| Pinturas en Lienzo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">| Pinturas en Óleo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">| Pinturas Rupestres</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">| Pinturas en Tela</a>
+        </li>            
+      </ul>
+    </div>
+</nav>
+<div style="padding-bottom: 5px"></div>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Instagram</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Youtube</a>
+      </li>         
+    </ul>
+</nav>
+<div class="container">
+    <div class="alert alert-success alert-dismissible mt-5">
+        <p>Esta página está protegida de direcciones IP sospechosas.</p>
+        <button type="button" class="close" data-dismiss="alert">
+          <span>x</span>
+        </button>
+    </div>
+    <p class="Contenido">| Obras |</p>
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel1" data-slide-to="1"></li>
+          <li data-target="#carousel1" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="Img/Pintura 1.jpg" alt="">
+              <div class="carousel-caption">
+                <h3>"Percepción"</h3>
+                <p>By Eber Santos</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Img/Pintura 2.jpg" alt="">
+              <div class="carousel-caption">
+                <h3>"Sunset"</h3>
+                <p>By Eber Santos</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="Img/Pintura 3.jpg" alt="">
+              <div class="carousel-caption">
+                <h3>"Entity"</h3>
+                <p>By Eber Santos</p>
+              </div>
+          </div>
+        </div>  
+        <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Atrás</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel1" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+          <div class="alert alert-info">
+            <p>Último mantenimiento de la página: 28/1/2021. Cualquier información o aportación: studioesantos@hotmail.com</p>
+          </div>                                        
+        </div>             
+    </div>
+    <div style="padding-bottom: 20px"></div>
+    <p class="Contenido">| Información sobre el artista </p>
+    <button type="button" class="btn btn-primary btn-dark" data-toggle="modal" data-target="#dialogo0">Sobre el artista</button>
+    <div class="modal fade" id="dialogo0">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Eber Santos</h4>
+            <button type="button" class="close" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+            Eber Santos es un estudiante del Colegio Don Bosco, cursante del técnico de informática sobre programación, solución y mantenimiento web.
+            También tiene dotes artísticos desde temprana edad.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="padding-bottom: 20px"></div>
+    <p class="Contenido">| Información sobre esta página </p>
+    <button type="button" class="btn btn-primary btn-dark" data-toggle="modal" data-target="#dialogo1">Sobre esta página</button>
+    <div style="padding-bottom: 20px"></div>
+    <p class="Contenido">| Consultar precio de obras </p>
+    <button type="button" class="btn btn-primary btn-dark" data-toggle="modal" data-target="#dialogo4">Precios</button>
+    <div class="modal fade" id="dialogo4">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">| Precios de Obras</h4>
+            <button type="button" class="close" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+              <ul>
+                  <li>'Entity' by Eber Santos - 35,000 $RD  </li>
+                  <li>'Sunset' by Eber Santos - 25,000 $RD  </li>
+                  <li>'Nightmare' by Eber Santos - 18,000 $RD  </li>
+                  <li>'Fulness' by Eber Santos - 13,000 $RD  </li>
+                  <li>'Coste del Oeste' by Eber Santos - 7,000 $RD  </li>
+                  <li>'Percepción' by Eber Santos - 5,000 $RD  </li>
+              </ul>         
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="padding-bottom: 20px"></div>
+    <p class="Contenido">| Registrarse </p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dialogo2">Registrarse</button>    
+    <div class="modal fade" id="dialogo1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Studio Eber Santos</h4>
+            <button type="button" class="close" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+              <div class="container-fluid">   
+                  <div class="row">       
+                    <div class="col">        
+                        <div class="card">
+                          <img class="card-img-top" src="Img/Sobre esta pagina.jpg">            
+                          <div class="card-body">
+                            <h4 class="card-title">| Sobre esta página</h4>
+                            <p class="card-text">Esta página contiene información sobre el estudio de Eber Santos un creador de pinturas con técnicas características propias perteneciente
+                                al país del Caribe, República Dominicana.</p>
+                          </div>
+                        </div>          
+                    </div>
+                    <div class="col">        
+                        <div class="card">
+                          <img class="card-img-top" src="Img/Sobre esta pagina 2.jpg">                        
+                          <div class="card-body">
+                            <h4 class="card-title">| Concepto</h4>
+                            <p class="card-text">El concepto de sus pinturas manejan un signficado reflexivo que persuade al receptor de manera que este, pueda
+                                tener una comprensión y percepción diferente de su día a día.</p>
+                          </div>
+                        </div>          
+                    </div>
+                    
+                  </div>
+                </div>            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="modal fade" id="dialogo2">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">| Registrarse</h4>
+              <button type="button" class="closet" data-dismiss="modal">X</button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">   
+                    <form>
+                        <div class="form-group row">
+                          <label for="usuario" class="col-lg-3 col-form-label">Ingrese un nombre de usuario:</label>
+                          <div class="col-lg-9">
+                            <input type="text" class="form-control" id="usuario">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="clave" class="col-lg-3 col-form-label">Ingrese su clave:</label>
+                          <div class="col-lg-9">
+                            <input type="password" class="form-control" id="clave">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="clave" class="col-lg-3 col-form-label">Ingrese su clave nuevamente:</label>
+                            <div class="col-lg-9">
+                              <input type="password" class="form-control" id="clave">
+                            </div>
+                          </div>
+                        <div class="form-group row">
+                          <div class="offset-lg-3 col-lg-9">
+                            <button type="submit" class="btn btn-default">Registrarse</button>
+                          </div> 
+                        </div>
+                      </form>                    
+                </div>            
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div style="padding-bottom: 30px"></div>
+    <ul class="pagination pagination-sm justify-content-center">
+        <li class="page-item"><a class="page-link" href="#"><</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item"><a class="page-link" href="#">></a></li>
+    </ul>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<footer>
+    <div style="padding-bottom: 50px"></div>
+    <div class="container-fluid" style="background-color:rgb(0, 0, 0)">
+        <h1 class="Footer">Práctica #12 by Eber Santos</h1> 
+    </div>
+</footer>
+</body>
+</html>
